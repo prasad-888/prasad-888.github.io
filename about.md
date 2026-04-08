@@ -2,15 +2,13 @@
 layout: page
 title: About
 permalink: /about/
-
-
-AI and DataScience Engineer
-
-From Pune
-
-Libraries: Pytorch, scikit learn, opencv
-
-Languages Tools: C, Java, Python, Git, MySQL, HTML, CSS, JavaScript
-
-
 ---
+
+# AI and Data Science Engineer
+
+**From:** Pune
+
+**Libraries:** PyTorch, scikit-learn, OpenCV
+
+**Languages & Tools:** C, Java, Python, Git, MySQL, HTML, CSS, JavaScript
+
