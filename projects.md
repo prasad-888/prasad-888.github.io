@@ -3,39 +3,39 @@ layout: page
 title: My Projects
 permalink: /projects/
 ---
-Portfolio Projects
-🍽️ Zomato Data Analysis | EDA & Regression
-Performed an in-depth analysis of restaurant data to uncover trends in consumer behavior and pricing.
+projects:
+  - title: "Zomato Data Analysis"
+    category: "EDA & Regression"
+    description: "In-depth analysis of restaurant data to uncover consumer behavior and pricing trends."
+    highlights:
+      - "Data Cleaning: Standardized ratings and cost features while handling missing values."
+      - "Data Visualization: Visualized correlations between cuisine types, locations, and success rates."
+      - "Regression Analysis: Built models to predict the average cost for two people."
+    tags: [Python, Pandas, Matplotlib, Regression]
 
-Data Cleaning: Handled missing values, removed duplicates, and standardized features like 'approx_cost' and 'ratings' for consistency.
+  - title: "Loan Sanction Prediction"
+    category: "Classification"
+    description: "Automated loan eligibility system based on customer financial profiles."
+    highlights:
+      - "EDA & Preprocessing: Managed class imbalance and performed outlier detection."
+      - "Feature Engineering: Derived new metrics like Debt-to-Income ratios for better accuracy."
+      - "Model Building: Implemented robust classification algorithms to predict approval status."
+    tags: [Scikit-Learn, Classification, Feature Engineering]
 
-Data Visualization: Created interactive plots to identify correlations between location, cuisine type, and restaurant success.
+  - title: "Sales Prediction"
+    category: "Regression"
+    description: "Forecasting future sales volumes to assist in inventory optimization."
+    highlights:
+      - "Preprocessing: Conducted time-series analysis and categorical encoding for stores."
+      - "Model Building: Developed a regression pipeline to forecast departmental sales."
+      - "Performance: Validated model accuracy using RMSE and R-squared metrics."
+    tags: [Time Series, Forecasting, Regression]
 
-Regression Analysis: Built a predictive model to estimate the approximate cost for two people based on restaurant features.
-
-💰 Loan Sanction Prediction | Classification
-Developed a machine learning pipeline to automate the loan eligibility process based on customer detail.
-
-EDA & Preprocessing: Identified outliers in income data and treated class imbalance using techniques like SMOTE.
-
-Feature Engineering: Created new features such as Debt-to-Income ratios to improve model sensitivity.
-
-Model Building: Implemented classification algorithms (e.g., Random Forest/Logistic Regression) to predict approval status with high precision.
-
-📈 Sales Prediction | Regression
-A strategic project aimed at forecasting future sales to optimize inventory management.
-
-EDA & Preprocessing: Conducted time-series analysis to identify seasonal trends and handled categorical encoding for store locations.
-
-Model Building: Developed a robust regression model to forecast sales volumes across various departments.
-
-Performance Measurement: Evaluated the model using RMSE (Root Mean Square Error) and R-squared metrics to ensure prediction accuracy.
-
-🛡️ AI Fraud Detection | Deep Learning & Deployment
-An end-to-end fraud detection system designed for high-speed inference and accuracy.
-
-Model Development: Built a high-performance gradient boosting model using LightGBM to detect anomalous transaction patterns.
-
-API Development: Wrapped the model in a FastAPI framework, enabling real-time fraud scoring via RESTful endpoints.
-
-Optimization: Focused on minimizing false positives to ensure a seamless user experience while maintaining high security.
+  - title: "AI Fraud Detection Model"
+    category: "Deep Learning & Deployment"
+    description: "Real-time fraud detection system utilizing high-speed gradient boosting."
+    highlights:
+      - "Model Development: Leveraged LightGBM for high-performance anomalous pattern detection."
+      - "API Deployment: Built a FastAPI wrapper for real-time model inference."
+      - "Deep Learning: Integrated advanced neural patterns to minimize false positives."
+    tags: [LightGBM, FastAPI, Deep Learning, MLOps]
