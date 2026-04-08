@@ -1,2 +1,10 @@
 title: My Portfolio
 remote_theme: jekyll/minima
+
+header_pages:
+  - index.md
+  - projects.md
+  - about.md
+
+github_username: prasad-888
+linkedin_username: prasad-gavhane-373a55241
