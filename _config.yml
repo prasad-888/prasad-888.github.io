@@ -7,5 +7,11 @@ header_pages:
   - about.md
   - Interests and Learning.md
 
-github_username: "https://github.com/prasad-888"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+
+
+github_username: prasad-888
 linkedin_username: prasad-gavhane-373a55241
