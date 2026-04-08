@@ -1,17 +1,17 @@
-minima:
-  nav_pages:
-    - index.md
-    - projects.md
-    - about.md
-    - Interests and Learning.md
-  social_links:
-    - { platform: github, user_id: prasad-888 }
-    - { platform: linkedin, user_id: prasad-gavhane-373a55241 }
 
 
 title: My Portfolio
 remote_theme: jekyll/minima
+
+
+minima:
+  social_links:
+    - { platform: github, user_id: prasad-888 }
+    - { platform: linkedin, user_id: prasad-gavhane-373a55241 }
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
+
 
