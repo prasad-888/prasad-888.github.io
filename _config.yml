@@ -2,7 +2,7 @@ title: My Portfolio
 remote_theme: jekyll/minima
 
 minima:
-  social_links:
+
 
 plugins:
   - jekyll-feed
